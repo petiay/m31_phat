@@ -892,7 +892,6 @@ def match_ast_to_obs(combo_inds, xmatch, ymatch, obsa, astx, asty):
                 # return astx[i], asty[i], matchedobs[take_match, 2]
             else:
                 combo_inds.append([astx[i], asty[i], matchedobs[0, 2]])
-                # print("matchedobs[0, 2]", matchedobs[0, 2])
                 # return astx[i], asty[i], matchedobs[0, 2]
 
     return combo_inds
